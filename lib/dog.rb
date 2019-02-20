@@ -11,6 +11,7 @@ class Dog
   end
   
   def self.all
+    @@all2 = @@all2.uniq
     @@all2.each {|item| puts item}
     #binding.pry
   end
