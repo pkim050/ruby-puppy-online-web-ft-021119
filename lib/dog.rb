@@ -8,4 +8,6 @@ class Dog
   def self.all
     @@all.each {|item| puts item}
   end
+  
+  def 
 end
