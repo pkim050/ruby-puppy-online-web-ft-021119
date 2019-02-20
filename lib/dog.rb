@@ -11,7 +11,7 @@ class Dog
   end
   
   def self.all
-    @@all2.values_at.each {|item| puts item}
+    @@all2.each {|item| puts item}
     #binding.pry
   end
   
