@@ -10,7 +10,7 @@ class Dog
   
   def self.all
     @@all.each {|item| puts item}
-    binding.pry
+    #binding.pry
   end
   
   def self.clear_all
