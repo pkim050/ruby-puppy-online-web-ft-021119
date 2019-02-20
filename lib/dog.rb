@@ -9,8 +9,8 @@ class Dog
   end
   
   def self.all
+    @@all.each {|item| puts item}
     binding.pry
-    #self.each {|item| puts item}
   end
   
   def self.clear_all
